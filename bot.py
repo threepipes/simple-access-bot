@@ -10,7 +10,7 @@ basicConfig(level=INFO, format=_format)
 logger = getLogger(__name__)
 
 config = ConfigParser()
-config.read('config.ini')
+config.read(os.path.dirname(__file__) + '/config.ini')
 
 bot_config = config['bot']
 
