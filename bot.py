@@ -25,3 +25,5 @@ driver = webdriver.Chrome(chromedriver_path, chrome_options=options)
 driver.get(bot_config.get('access_url'))
 
 logger.info(driver.title)
+driver.close()
+driver.quit()

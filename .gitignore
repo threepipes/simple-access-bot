@@ -2,3 +2,4 @@
 
 chromedriver
 config.ini
+*.log
